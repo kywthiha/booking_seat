@@ -1,0 +1,72 @@
+.btn-seat{
+    text-align: center;
+    font-weight: bold;
+    width: 50px;
+    margin: 5px;
+    display: inline-block;
+    padding: 6px 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-radius: 4px;
+}
+
+.btn-unseat{
+    width: 50px;
+    display: inline-block;
+    margin: 5px;
+    display: inline-block;
+}
+#booking-seat table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0.5rem;
+    border-collapse: separate;
+}
+
+#booking-seat table td{
+    text-align: center;
+    vertical-align: center;
+}
+#booking-seat table td.btn-selected{
+    color:white;
+    background-color: #0074d9;
+}
+#booking-seat table td.btn-unselected{
+    color:white;
+    background-color: #5cb85c;
+}
+
+#booking-seat table td.btn-unselected:hover{
+    color:#fff;
+    background-color: #4c9e4c;
+    border-radius: 1rem;
+    border:2px solid #fff;
+}
+
+#booking-seat table td.btn-selected:hover{
+    color:#fff;
+    border-radius: 1rem;
+    background-color: #3205af;
+    border:2px solid #fff;
+}
+#booking-seat table td.btn-seat-unavailable{
+    color:white;
+    cursor: not-allowed;
+    background-color: black;
+}
